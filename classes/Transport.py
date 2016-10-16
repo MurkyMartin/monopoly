@@ -8,5 +8,6 @@ class Transport(Card):
 		#maybe have a dictionary which contain transport names and value defaults to False so
 		#more transports can be added and is more maintainable ??? {'Bus':False, 'Airport':False ...}
 		self.other_trans_owned = [False]*4 
+		#this is a second alternative
 		#False in position 0 corresponds to first transport son the board and so on
 		#True if transport owned
